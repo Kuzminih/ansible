@@ -11,3 +11,7 @@ vagrant ssh ansible
 ansible-playbook /vagrant/nginx.yml
 И проверяем что на второй машине развернулся поднялся nginx
 curl 192.168.50.11:8080
+Или можно зайти на вторую машину:
+vagrant ssh nginx
+И там выполнитьЖ
+curl localhost:8080
